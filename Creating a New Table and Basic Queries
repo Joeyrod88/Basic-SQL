@@ -1,0 +1,29 @@
+/*creating a Table to run Basic SQL Queries on */
+
+Create Table Board_Games(Id Integer Primary Key,Name Text,Number_of_Players Integer,Price Integer,Reccomended_age Integer);
+INSERT INTO Board_Games VALUES (1, "The Game of Life",4,21.99,"8+");
+INSERT INTO Board_Games VALUES (2, "Clue",6,16.99,"8+");
+INSERT INTO Board_Games VALUES (3, "Candyland",4,19.95,"5+");
+INSERT INTO Board_Games VALUES (4, "Monopoly",6,21.99,"8+");
+INSERT INTO Board_Games VALUES (5, "Scrabble",4,18.99,"8+");
+INSERT INTO Board_Games VALUES (6, "Battleship",2,14.99,"8+");
+INSERT INTO Board_Games VALUES (7, "Risk",4,21.99,"8+");
+INSERT INTO Board_Games VALUES (8, "Stratego",2,29.99,"8+");
+INSERT INTO Board_Games VALUES (9, "1941:Axis and Allies",5,29.99,"12+");
+INSERT INTO Board_Games VALUES (10, "Chess",2,9.99,"8+");
+INSERT INTO Board_Games VALUES (11,"Backgammon",2,21.99,"8+");
+INSERT INTO Board_Games VALUES (12, "Checkers",2,9.99,"8+");
+INSERT INTO Board_Games VALUES (13, "Connect Four",2,11.99,"6+");
+INSERT INTO Board_Games VALUES (14, "Twister",4,14.99,"6+");
+INSERT INTO Board_Games VALUES (15, "Operation",2,19.99,"6+");
+
+/* Start of Basic Queries */
+
+Select Name,Price from Board_Games Order By 
+Price Desc;
+
+Select Name,Reccomended_age from Board_Games order by Reccomended_age ;
+
+Select Name, Number_Of_Players from Board_Games where Number_Of_Players > 4;
+
+Select Avg(Price) from Board_Games;
