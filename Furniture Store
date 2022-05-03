@@ -133,3 +133,11 @@ Select Id, name, Sum(Price) as Total_Sales from sales group by name order by Id;
 /* Total sales by Counrty from best to worst */
 
 Select SUM(Price)as Total_Sales,Country from sales group by country order by total_sales Desc;
+
+/*Total sales in the US by State from best to worst*/
+
+Select state, Sum(Price)as Total_Sales from sales where country = 'United states' group by state order by Total_Sales desc; 
+
+/*Total sales in the US by City from best to worst*/
+
+Select city,state, Sum(Price)as Total_Sales from sales where country = 'United states' group by city order by Total_Sales desc;
