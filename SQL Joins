@@ -1,0 +1,93 @@
+/* Create table about the people and what they do here */
+
+CREATE TABLE Famous_People (id INTEGER PRIMARY KEY,
+First_Name TEXT,
+Last_Name TEXT,
+Birthdate TEXT,
+City_of_Birth TEXT,
+State_of_Birth TEXT,
+Country_of_Birth TEXT,
+Occupation integer,
+Also_worked_as integer);
+
+INSERT INTO Famous_People(first_name, last_Name, birthdate, City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Tom", "Hanks", "07-09-1956", "Concord", "California", "USA", 1,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Denzel", "Washington", "12-28-1954","Mount Vernon", "New York","USA", 1,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Robert", "Downey Jr.", "04-04-1965","Manhattan", "New York", "USA", 1,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Brad", "Pitt", "12-18-1963","Shawnee", "Oklahoma", "USA",1 ,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Christian", "Bale", "01-30-1974","Haverfordwest", "Wales","United Kingdom", 1,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Elvis", "Presley", "01-08-1935","Tupelo", "Mississippi", "USA", 2,7);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Michael", "Jackson", "08-29-1958","Gary", "Indiana", "USA", 2,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("John", "Lennon", "10-09-1940","Liverpool", "England","United Kingdom", 2,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Frank", "Sinatra", "12-12-1915","Hoboken", "New Jersey", "USA", 2,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Freddy", "Mercury", "09-05-1946","Stone Town","", "Sultanate of Zanzibar", 2,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Dak", "Prescott", "07-29-1993","Sulphur", "Louisiana","USA", 3,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Lebron", "James", "12-30-1984","Akron", "Ohio", "USA", 3,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Derek", "Jeter", "06-26-1974","Pequannock Township", "New Jersey","USA", 3,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Tony", "Hawk", "05-12-1968","San Diego", "California", "USA",3,1 );
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Serena", "Williams", "09-26-1981",	"Palm Beach Gardens", "Florida", "USA", 3,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Gigi", "Hadid", "04-23-1995","Los Angeles", "California", "USA", 4,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Cara", "Delevingne", "08-12-1992", "London", "England", "United Kingdom", 4,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Kate", "Upton", "06-10-1992","St. Joseph", "Michigan", "USA", 4,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Cindy", "Crawford", "02-20-1966","DeKalb", "Illinois", "USA", 4,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Heidi", "Klum", "06-01-1973","Bergisch Gladbach","", "West Germany", 4,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("John", "Kerry", "12-11-1943","Aurora", "Colorado", "USA", 5,7);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Al", "Gore", "03-31-1948","Washington", "D.C.", "USA", 5,7);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Jen", "Psaki", "12-01-1978","Stamford"," Connecticut", "USA", 5,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Dick", "Cheney", "01-30-1941","Lincoln", "Nebraska", "USA", 5,"");
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("John", "McCain", "08-29-1936","Coco Solo", "Panama Canal Zone", "USA", 5,7);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Lewis", "Black", "08-30-1948","Washington", "D.C.", "USA", 6,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Dave", "Chappelle", "08-24-1973","Washington", "D.C.", "USA", 6,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("George", "Carlin", "05-12-1937","New York City","New York","USA", 6,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Amy", "Poehler", "09-16-1971","Newton", "Massachusetts", "USA", 6,1);
+INSERT INTO Famous_People (first_name, last_Name, birthdate,City_of_Birth, State_of_Birth, Country_of_Birth, occupation,Also_worked_as)
+VALUES ("Wanda", "Sykes", "03-07-1964","Portsmouth", "Virginia", "USA", 6,1);
+
+CREATE TABLE Profession (id INTEGER PRIMARY KEY,
+Title TEXT);
+
+INSERT INTO Profession VALUES (1, "Actor");
+INSERT INTO Profession VALUES (2, "Musician");
+INSERT INTO Profession VALUES (3, "Athlete");
+INSERT INTO Profession VALUES (4, "Model");
+INSERT INTO Profession VALUES (5, "Politician");
+INSERT INTO Profession VALUES (6, "Comedian");
+INSERT INTO Profession VALUES (7, "Military Personnel");
+
+/*Started Querying*/
+
+/*Full Name and Occupation using Join Ordered by Last Name */
+Select famous_people.First_Name,famous_people.Last_Name,Profession.title from Famous_People join profession on Famous_people.occupation = Profession.id Order by Last_name ;
+
+/*Full Name and Occupation and Other Occupation multiple Join, Self Join and Left Outer Join */
+Select famous_people.First_name,Famous_people.Last_name, Known_For.title,Also_did.Title from famous_people
+Join Profession as Known_For on famous_people.occupation = Known_For.Id
+left outer Join Profession as Also_did on famous_people.Also_Worked_As = Also_did.Id order by Last_name;
