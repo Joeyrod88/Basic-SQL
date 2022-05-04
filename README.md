@@ -8,6 +8,9 @@ Furniture Store Sales:
 
 Quantified sales totals per Category, Customer, and purchase location, and determined most and least profitable store locations.
 
+SQL Joins:
+
+Here I put together a simple database with a few Tables to demonstrate Joins.
 
 At this time it is still a Work in Progress.
 
