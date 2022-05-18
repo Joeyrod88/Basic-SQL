@@ -91,3 +91,21 @@ Select famous_people.First_Name,famous_people.Last_Name,Profession.title from Fa
 Select famous_people.First_name,Famous_people.Last_name, Known_For.title,Also_did.Title from famous_people
 Join Profession as Known_For on famous_people.occupation = Known_For.Id
 left outer Join Profession as Also_did on famous_people.Also_Worked_As = Also_did.Id order by Last_name;
+
+/*Showing use of concat synetx */
+SELECT First_Name||' '|| Last_Name|| " " || CASE 
+WHEN occupation = 1 THEN "(Act.)"
+WHEN occupation = 2 THEN "(Mus.)"
+WHEN occupation = 3 THEN "(Ath.)"
+WHEN occupation = 4 THEN "(Mod.)"
+WHEN occupation = 5 THEN "(Pol.)"
+WHEN occupation = 6 THEN "(Com.)"
+WHEN occupation = 7 THEN "(Mil.)"END as "Full Name and Occupation" 
+FROM Famous_People ORDER BY Last_name;
+
+/* Showing use of concat syntex with join*/
+SELECT "There are a total of " || COUNT(Famous_people.Occupation)|| " "|| Profession.Title|| "s." as "Total Professionals" FROM Famous_people
+Join Profession where Famous_People.occupation = Profession.Id
+GROUP BY OCCUPATION
+ORDER BY COUNT(OCCUPATION) ASC,
+OCCUPATION ASC;
